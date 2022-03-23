@@ -11,8 +11,7 @@ public:
        vector<int> ans(n , 0);
         
         ans[0] = 1;
-        
-        
+
         for(int i = 1 ; i < n ; i++){
             
             if(s[i - 1 ] == '0' && s[i] == '0'){
